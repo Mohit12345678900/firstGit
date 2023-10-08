@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: aliceblue; */
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    /* overflow: hidden; */
+}
+
+#main{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    /* background-image: url(./Botel.jpg); */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    background-color: gray;
+}
+
+#main #logo{
+    
+}
+
+body #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+body #logo img{
+    height: 90px;
+    top: 10px;
+    margin-left: 50px;
+    filter: invert();
+}
+
+body #nav #end{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    margin-right: 50px;
+}
+
+body #nav #end i{
+    color: aliceblue;
+}
+
+#main img{
+
+    height: 100%;
+    /* width: 60%; */
+    /* margin-top: 10%; */
+    /* top: 10%; */
+}
+
+#main #main-part1,#main-part2{
+    position: absolute;
+    /* background-color: aqua; */
+}
+
+#main #main-part1{
+    top: 40%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#main #main-part1 h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+    margin:0 49px;
+    color:  aliceblue;
+}
+
+#main #main-part1 h4{
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#main #main-part1 button{
+    margin: 20px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+#main #main-part2{
+    left: 50%;
+    top: 50%;
+}
+
+#main #main-part2 h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+#main h1{
+    font-size: 400px;
+    top: 50px;
+    /* line-height: 1; */
+    margin-top: 20px;
+
+}
